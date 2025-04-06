@@ -1,6 +1,37 @@
-streamlit
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
+# Machine Learning libraries
+numpy>=1.22.0
+pandas>=1.4.0
+scikit-learn>=1.0.2
+tensorflow>=2.8.0
+matplotlib>=3.5.0
+scipy>=1.8.0
+
+# Deep Learning (optional)
+torch>=1.11.0
+torchvision>=0.12.0
+
+# Web Framework
+flask>=2.0.1
+flask-cors>=3.0.10
+
+# API alternatives (optional)
+# fastapi>=0.78.0
+# django>=4.0.0
+
+# Deployment
+gunicorn>=20.1.0
+python-dotenv>=0.20.0
+requests>=2.27.1
+
+# Data Visualization
+seaborn>=0.11.2
+plotly>=5.7.0
+
+# Utilities
+jupyter>=1.0.0
+joblib>=1.1.0
+pillow>=9.0.1
+
+# Optional specialized packages
+# nltk>=3.7
+# opencv-python>=4.5.5
