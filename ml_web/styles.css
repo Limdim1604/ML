@@ -1,0 +1,93 @@
+/* Pastel theme for ML Web Application */
+
+/* Global text color */
+body, p, span, div {
+    color: hsl(68, 100%, 62%); 
+}
+/* Main background */
+.stApp {
+    background-image: url('https://cdn.pixabay.com/photo/2024/01/29/22/47/ai-generated-8540915_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #5aea9a; /* Darker shade */
+}
+
+/* Headers with animated linear gradient */
+h1, h2, h3 {
+    background: linear-gradient(270deg, #f19ea1, #9dace6, #f590d8, #a3f6a9, #e0f1a8);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Helvetica Neue', sans-serif;
+    animation: gradientShift 6s ease infinite;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+/* Sidebar */
+.css-1d391kg {
+    background-color: #b174bc;  /* Lighter blue for sidebar */
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #c82123;  /* Pastel green */
+    color: #ffa424;
+    border: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #7fbf9e;  /* Slightly darker green on hover */
+}
+
+/* Selectbox, multiselect */
+.stSelectbox label, .stMultiSelect label {
+    color: #5d8aa8;  /* Steel blue */
+}
+
+/* Radio buttons */
+.stRadio label {
+    color: #5d8aa8;  /* Steel blue */
+}
+
+/* Slider */
+.stSlider label {
+    color: #5d8aa8;  /* Steel blue */
+}
+
+/* Success messages */
+.element-container div[data-testid="stText"] div[style*="color: rgb(38, 166, 154)"] {
+    color: #13d551 !important;  /* Dark sea green */
+}
+
+/* Warning messages */
+.element-container div[data-testid="stText"] div[style*="color: rgb(255, 152, 0)"] {
+    color: #b65d09 !important;  /* Light orange */
+}
+
+/* Cards and containers */
+.css-j7qwjs, .css-1r6slb0 {
+    background-color: #7052a8;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(155, 245, 245, 0.05);
+    padding: 20px;
+}
+
+/* Tables */
+.stDataFrame {
+    background-color: #b8fea1;
+}
+
+/* Tooltip */
+.stTooltipIcon {
+    color: #a8d5ba;
+}
