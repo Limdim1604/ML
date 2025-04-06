@@ -20,7 +20,7 @@ def load_sample_data():
     """Load the sample Heart.csv dataset"""
     try:
         file_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "Heart.csv")
-        data = pd.read_csv("Heart.csv")
+        data = pd.read_csv("ml_web/Heart.csv")
         st.session_state.data = data
         st.success("Heart.csv loaded successfully!")
         return data
